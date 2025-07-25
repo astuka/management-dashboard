@@ -1,2 +1,5 @@
 node_modules
 private.md
+.github/workflows/deploy.yml
+# Local Netlify folder
+.netlify
