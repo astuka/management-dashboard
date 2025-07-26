@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/management-dashboard' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/management-dashboard/' : '',
+  // Remove basePath and assetPrefix for Netlify deployment
+  // These should only be used if your site is hosted in a subdirectory
 }
 
 module.exports = nextConfig 
